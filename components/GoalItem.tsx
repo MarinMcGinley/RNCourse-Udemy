@@ -1,6 +1,6 @@
 import React from "react";
 import { View, StyleSheet, Text, Pressable } from "react-native";
-import { Goal } from "../App";
+import { Goal } from "../apps/AddGoals";
 
 interface GoalItemProps extends Goal {
   onDeleteItem: (id: string) => void;
